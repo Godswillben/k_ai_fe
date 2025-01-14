@@ -9,7 +9,7 @@ function PrimaryHeader() {
     <div className='w-[100vw] bg-white py-6 shadow-xl shadow-[#EC7F8C]/[.05]'>
       <div className='flex justify-between items-center w-11/12 mx-auto'>
         <img className='relative w-[9rem] animate-float duration-[1000ms]' src={logo} alt="" />
-        <div className='flex w-1/5 justify-between'> 
+        <div className='flex w-1/4 justify-between'> 
           <PrimaryNavLink active={true} name="Home" />
           <PrimaryNavLink name="About" />
           <PrimaryNavLink name="Contact Us" /> 
